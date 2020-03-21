@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.SOA.Web", "Ruanmou.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyf.SOA.Web", "Cyf.SOA.Web\Cyf.SOA.Web.csproj", "{B7B559DD-CD48-47F1-941A-C0E9410702EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{AC7C749C-A250-4524-A0FF-6699C2CAB8D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.SOA.UnitTestProject", "Ruanmou.SOA.UnitTestProject\Ruanmou.SOA.UnitTestProject.csproj", "{6B1A7A6C-2D34-4AB9-A702-54EFA12FCB4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{B7B559DD-CD48-47F1-941A-C0E9410702EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B559DD-CD48-47F1-941A-C0E9410702EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B559DD-CD48-47F1-941A-C0E9410702EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1A7A6C-2D34-4AB9-A702-54EFA12FCB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1A7A6C-2D34-4AB9-A702-54EFA12FCB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1A7A6C-2D34-4AB9-A702-54EFA12FCB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1A7A6C-2D34-4AB9-A702-54EFA12FCB4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B1A7A6C-2D34-4AB9-A702-54EFA12FCB4C} = {AC7C749C-A250-4524-A0FF-6699C2CAB8D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE31EF80-8967-45BA-B3C4-34A8ADFDF205}
